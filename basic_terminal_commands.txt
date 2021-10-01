@@ -1,0 +1,106 @@
+Basic terminal commands_ my notes
+
+PWD
+
+pwd: 
+print working directory: tells in which directory you are in. 
+
+
+LS 
+
+ls: 
+Lists the current directory's elements.
+
+	ls -l : display more details.
+	ls -a: displays hidden files.
+	ls -a -la OR ls -la : execute at the same time the two commands
+above.
+
+
+CD 
+
+cd: change directory. Command used to navigate in the file tree.
+ex: cd myDirectory
+	cd ..    this command above will move you in the parent directory. 
+	cd../..  this one will move you up two levels.
+
+TAB 
+
+tab: 
+for autocompletion.
+
+tab * 2 : 
+to list the options.
+
+
+MKDIR 
+
+mkdir: 
+to create a directory.
+	ex: mkdir myDirectory
+
+TOUCH 
+
+touch: 
+to create a file. 
+	ex: touch myFile.txt
+	ex: touch "my file.txt"
+	ex: touch my\file.txt
+
+MV 
+
+mv: 
+to move a file or a folder. 
+	ex: mv file.txt folder/
+/!\ Don't forget the backslash at the end of the folder's name or it will
+just change the file's name instead of moving it
+( administrator rights required )
+
+
+to move a file to its previous location: 
+
+mv folder/file.txt .
+
+nb: the "." stands for the current folder, which is hidden. 
+
+
+CP 
+
+cp: 
+
+to copy a file to another location: 
+
+cp file1.txt folderToMoveIn/
+
+to copy a file at the same location but with another name: 
+
+cp file1.txt file2.txt
+
+
+to copy a folder: 
+
+cp -r folder/ folderToMoveIn
+
+
+WILCARDS ( *...)
+
+the wilcards: 
+can be used to move simultaneously several elements. ex: I want to move all the files
+beginning by "fil":
+ 
+mv fil* folder/
+
+
+
+RM 
+
+rm : 
+to delete a file. ex: 
+rm file1.txt 
+
+rm -r
+to delete a folder. ex: 
+rm -r folder
+
+
+
