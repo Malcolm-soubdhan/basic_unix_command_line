@@ -82,9 +82,9 @@ to copy a folder:
 cp -r folder/ folderToMoveIn
 
 
-WILCARDS ( *...)
+WILDCARDS ( *...)
 
-the wilcards: 
+the wildcards: 
 can be used to move simultaneously several elements. ex: I want to move all the files
 beginning by "fil":
  
